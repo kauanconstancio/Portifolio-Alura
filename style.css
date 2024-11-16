@@ -1,1 +1,60 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100vh;
+  padding: 300px 200px;
+  background-color: #000;
+}
+body .conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+body .conteudo h1 {
+  font-size: 2.25rem;
+  color: #F6F6F6;
+  font-family: "Krona One";
+}
+body .conteudo h1 span {
+  color: #22D4FD;
+}
+body .conteudo p {
+  font-size: 1.5rem;
+  color: #F6F6F6;
+  font-family: "Montserrat";
+}
+body .conteudo .btn-social {
+  display: flex;
+  margin-left: -60px;
+  gap: 50px;
+}
+body .conteudo .btn-social a {
+  background-color: #22D4FD;
+  padding: 16px;
+  border-radius: 16px;
+  color: #000;
+  text-decoration: none;
+  width: 280px;
+  height: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+body img {
+  width: 488px;
+  height: 500px;
+}/*# sourceMappingURL=style.css.map */
